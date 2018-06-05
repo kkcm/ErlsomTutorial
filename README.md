@@ -4,6 +4,7 @@ Instalacja erlsom:
 
 Pobrać:
 ```
+https://github.com/willemdj/erlsom
 https://github.com/kkcm/ErlsomTutorial
 ```
 Krok po kroku:  
@@ -11,10 +12,15 @@ Krok po kroku:
 whereis(erlang)
 cd ...
 cd lib
+mkdir erlsom-1.2.1
+cd erlsom-1.2.1
+mkdir ebin
+mkdir src
 ```
-wkleić folder z repo erlsom-1.2.1
-
-
+pliki z pobranego repo skopiować do folderu erlsom-1.2.1/src  
+odpalić make  
+przenieść wszystkie pliki beam z erlsom-1.2.1/src/ebin do erlsom-1.2.1/ebin  
+o powinno działać
 
 
 SAX PARSE:
